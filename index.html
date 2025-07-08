@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Your Name</title>
+  <title>Fabian Rudolf</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
     :root {
@@ -82,33 +82,31 @@
 <body>
 
   <header>
-    <h1>Your Name</h1>
-    <p>Short tagline or professional title</p>
+    <h1>Fabian Rudolf</h1>
+    <p>M.Sc. Applied Physics | Data Scientist</p>
   </header>
 
   <main>
     <section>
       <h2>About</h2>
       <p>
-        I’m a [Your Field] passionate about [your interest]. I currently work on [something], and I enjoy exploring [a topic you care about]. This page is a small collection of my work and ideas.
+        I’m currently working on this page.
       </p>
     </section>
 
     <section>
       <h2>Projects</h2>
       <ul>
-        <li><a href="https://github.com/yourusername/project1" target="_blank">Project One</a> – A brief description of what it does.</li>
-        <li><a href="https://github.com/yourusername/project2" target="_blank">Project Two</a> – Another project summary.</li>
-        <li><a href="https://yourusername.github.io/yourproject/">Live Demo</a> – If you host something on GitHub Pages.</li>
+        <li><a href="farudolf.github.io/">Website</a></li>
       </ul>
     </section>
 
     <section>
       <h2>Contact</h2>
       <ul>
-        <li>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></li>
-        <li><a href="https://github.com/yourusername" target="_blank">GitHub</a></li>
-        <li><a href="https://www.linkedin.com/in/yourprofile/" target="_blank">LinkedIn</a></li>
+        <li>Email: <span id="email"></span></li>
+        <li><a href="https://github.com/farudolf" target="_blank">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/fabianrudolf/" target="_blank">LinkedIn</a></li>
       </ul>
     </section>
   </main>
@@ -116,6 +114,15 @@
   <footer>
     &copy; 2025 Your Name. Hosted on <a href="https://pages.github.com" target="_blank">GitHub Pages</a>.
   </footer>
+
+  <script>
+  const user = "mail"; // Replace with your email name
+  const domain = "fabianrudolf.com"; // Replace with your domain
+  const emailLink = document.createElement("a");
+  emailLink.href = `mailto:${user}@${domain}`;
+  emailLink.textContent = `${user}@${domain}`;
+  document.getElementById("email").appendChild(emailLink);
+  </script>
 
 </body>
 </html>
